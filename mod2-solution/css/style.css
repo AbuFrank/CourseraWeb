@@ -1,0 +1,21 @@
+body {
+	font-family: Georgia;
+
+}
+
+
+.main-heading {
+	text-align: center;
+	font-size: 5em;
+	margin: auto;
+}
+
+.section-title {
+	position: absolute;
+	right: 0;
+	font-size: 1.25em;
+}
+
+.title {
+	margin: auto;
+}
