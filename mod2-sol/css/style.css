@@ -5,15 +5,15 @@ body {
 .heading {
 	text-align: center;
 	font-size: 5em;
-	margin: 1em auto;
+	margin: 1.9375rem auto;
 }
 
 .entree {
 	border: 3px solid #000;
 	background-color: #aaa;
 	height: 350px;
-	margin: 3em 4em;
-	padding: 0 20px 10px;
+	margin: 2em 4em;
+	padding: 0 30px 10px;
 	position: relative;
 }
 
@@ -41,7 +41,7 @@ body {
 }
 
 .entree p {
-	margin-top: 90px;
-	font-size: 2.5em;
+	margin-top: 103px;
+	font-size: 2.3em;
 	font-family: 'Fresca', sans-serif;
 }
