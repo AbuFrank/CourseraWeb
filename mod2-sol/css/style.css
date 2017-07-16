@@ -2,6 +2,12 @@ body {
 	font-family: 'Allura', cursive;
 }
 
+.heading {
+	text-align: center;
+	font-size: 5em;
+	margin: 1em auto;
+}
+
 .entree {
 	border: 3px solid #000;
 	background-color: #aaa;
@@ -9,6 +15,17 @@ body {
 	margin: 3em 4em;
 	padding: 0 20px 10px;
 	position: relative;
+}
+
+.entree-title {
+	border: 3px solid #000;
+	font-size: 3em;
+	margin-top: 0;
+	position: absolute;
+	top: -3px;
+	right: -3px;
+	text-align: center;
+	width: 300px;
 }
 
 .chicken .entree-title{
@@ -23,19 +40,8 @@ body {
 	background-color: #e3cf98;
 }
 
-.entree-title {
-	border: 3px solid #000;
-	font-size: 3em;
-	margin-top: 0;
-	position: absolute;
-	top: -3px;
-	right: -3px;
-	text-align: center;
-	width: 300px;
-}
-
-.heading {
-	text-align: center;
-	font-size: 5em;
-	margin: 3em auto;
+.entree p {
+	margin-top: 90px;
+	font-size: 2.5em;
+	font-family: 'Raleway', sans-serif;
 }
