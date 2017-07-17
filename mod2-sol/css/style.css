@@ -1,3 +1,5 @@
+/**/
+
 body {
 	font-family: 'Allura', cursive;
 }
@@ -44,4 +46,18 @@ body {
 	margin-top: 103px;
 	font-size: 2.3em;
 	font-family: 'Fresca', sans-serif;
+}
+
+@media (max-width: 767px) {
+	.entree p {
+		font-size: 4vw;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991) {
+
+}
+
+@media (min-width: 1200px) {
+
 }
