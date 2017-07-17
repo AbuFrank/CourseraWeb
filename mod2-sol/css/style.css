@@ -49,8 +49,17 @@ body {
 }
 
 @media (max-width: 767px) {
+	.entree {
+		padding: 20px;
+	}
 	.entree p {
 		font-size: 4vw;
+	}
+	.heading {
+		font-size: 13vw;
+	}
+	.entry-title {
+		font-size: 7vw;
 	}
 }
 
