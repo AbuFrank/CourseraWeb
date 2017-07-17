@@ -6,7 +6,6 @@ body {
 
 .heading {
 	text-align: center;
-	font-size: 5em;
 	margin: 1.9375rem auto;
 }
 
@@ -21,7 +20,6 @@ body {
 
 .entree-title {
 	border: 3px solid #000;
-	font-size: 3em;
 	margin-top: 0;
 	position: absolute;
 	top: -3px;
@@ -44,7 +42,6 @@ body {
 
 .entree p {
 	margin-top: 103px;
-	font-size: 2.3em;
 	font-family: 'Fresca', sans-serif;
 }
 
