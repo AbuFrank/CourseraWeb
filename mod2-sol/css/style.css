@@ -13,21 +13,21 @@ body {
 .entree {
 	border: 3px solid #000;
 	background-color: #aaa;
-	height: 350px;
-	margin: 2em 4em;
+	height: auto;
+	margin: 2em 2em;
 	padding: 0 20px;
 	position: relative;
 }
 
 .entree-title {
 	border: 3px solid #000;
-	font-size: 7vw;
+	font-size: 32px;
 	margin-top: 0;
 	position: absolute;
 	top: -3px;
 	right: -3px;
 	text-align: center;
-	width: 300px;
+	width: 45%;
 }
 
 .chicken .entree-title{
@@ -43,13 +43,26 @@ body {
 }
 
 .entree p {
-	margin-top: 103px;
-	font-size: 4vw;
+	margin-top: 65px;
+	font-size: 16px;
 	font-family: 'Fresca', sans-serif;
+}
+
+@media (max-width: 319px) {
+	.entree {
+		margin-right: 0;
+		margin-left: 0;
+	}
 }
 
 @media (max-width: 767px) {
 	
+}
+
+@media (min-width: 400px) {
+	.entree p {
+		line-height: 1.5;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991) {
